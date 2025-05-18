@@ -1,9 +1,11 @@
 # Automatic-Cricket-Team-Selection
- Developed an optimized player selection model using Pandas, integrating recent form and consistency metrics to construct a well-balanced team.  Achieved 3rd place (out of 1300+ submissions) in The American Express Campus Challenge 2024 for this project.
+This challenge was an incredible journey across 3 intensive rounds, where I worked on developing an advanced cricket team selection model. The task involved analysing 80,000+ entries across multiple datasets - it surely was one of the most interesting problem statements I have had a chance to work on. I developed an optimized player selection model using Python & Pandas, integrating recent form and consistency metrics to construct a well-balanced team. 
+
+Achieved 3rd place (out of 1300+ submissions) in The American Express Campus Challenge 2024 for this project!
 
 ## 📊 Data Processing Steps  
 
-### **1️⃣ Data Cleaning**  
+### **Data Cleaning**  
 - **Duplicate Removal**: Eliminated duplicate records from the dataset.  
 - **Handling Null Values**:  
   - Calculated missing **strike rates** as `total runs / balls faced`.  
@@ -11,11 +13,11 @@
   - Filled missing **city values** in match-level data using the **venue** column.  
   - Replaced missing values in **categorical columns** with `'unknown'`.  
 
-### **2️⃣ Outlier Detection**  
+### **Outlier Detection**  
 - Identified **min/max values** for each column.  
 - Used the **Interquartile Range (IQR) method** to detect and handle outliers.  
 
-### **3️⃣ Data Type Conversion**  
+### **3️Data Type Conversion**  
 - Converted **string values** in numerical columns to **integers** for consistency.  
 
 ---
@@ -34,7 +36,7 @@ Statistical measures were applied to evaluate player performance across multiple
 ---
 
 ## 🎯 Query Execution & Team Selection  
-- **Data Filtering & Manipulation**: Used **Pandas** to extract relevant insights.  
+- **Data Filtering & Manipulation**: Used **Pandas** queries to extract relevant insights.  
 - **Player Selection**: Identified **top-performing** batsmen and bowlers based on **recent form, consistency, and statistical metrics**.  
 - **Balanced Team Formation**: Selected an **optimal mix** of players for a well-rounded team.  
 
