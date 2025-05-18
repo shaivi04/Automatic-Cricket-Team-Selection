@@ -20,7 +20,7 @@ One of the most fun and rewarding problems I’ve worked on!
 - Identified **min/max values** for each column.  
 - Used the **Interquartile Range (IQR) method** to detect and handle outliers.  
 
-### **3️Data Type Conversion**  
+### **Data Type Conversion**  
 - Converted **string values** in numerical columns to **integers** for consistency.  
 
 ---
