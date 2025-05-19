@@ -1,11 +1,5 @@
 # Automatic-Cricket-Team-Selection
-Took on one of the most exciting challenges in the American Express Campus Challenge 2024 — and made it to the Top 3 out of 1300+ teams!
-
-Spread Over 3 intense rounds, I built an advanced cricket team selection model by working with 80,000+ entries in multiple datasets.  
-Used Python and Pandas to create a team selection model that balanced recent performance and consistency — and helped form the best possible team on paper.
-
-Here is a brief about what all I did 
-
+I participated in the American Express Campus Challenge 2024 and ended up in the Top 3 out of 1300 participants! Over three intense rounds, I developed a cricket team selection model using over 80,000 entries from various datasets. I utilized Python and Pandas to create a model that balanced recent performance with consistency, ultimately helping to assemble the best team on paper. Here's a quick rundown of what I did.
 ## 📊 Data Processing Steps  
 
 ### **Data Cleaning**  
